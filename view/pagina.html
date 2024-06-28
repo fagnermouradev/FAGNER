@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <style>
+
+        body {
+            height: 100vh;
+            font-family: "Comic Neue", cursive;
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        .container {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main {
+            border: 3px solid gray;
+            border-radius: 5%;
+            padding: 30px;
+        }
+        .inputs {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .a{
+            text-align: right;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        a{
+            text-decoration: none;
+            color: blue;
+        }
+        
+        .button {
+            text-align: center;
+        }
+
+        .secondary-button {
+            background-color: rgb(14, 10, 245);
+            color: white;
+            padding-inline: 20px;
+            padding-block: 5px;
+            border-radius: 5px;
+            border: none;
+        }
+        input[type="button"] {
+            background-color: brown;
+            color: white;
+            padding-inline: 20px;
+            padding-block: 5px;
+            border-radius: 5px;
+            border: none;
+        }
+        input {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div>
+                <h1 id="main-title">não aguento mais</h1>
+                <p>insira suas credenciais</p>
+            </div>
+    
+            <form action="">
+                <div class="inputs">
+                    <div>
+                        <label for="">Email</label>
+                    </div>
+                    <input type="email" name="" id="" placeholder="Digite aqui" required>
+                </div>
+            <div class="inputs">
+                <div>
+                    <label for="">Senha</label>
+                </div>
+                <input type="password" name="" id="" placeholder="..." required>
+            </div>
+    
+                <div class="a">
+                    <a href="">Esqueci minha senha</a>
+                </div>
+                <div class="button">
+                    <input type="button" value="Entrar">
+                 </div>
+    
+            </form>
+        </div>
+    </div>
+</body>
+</html>
